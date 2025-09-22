@@ -1,0 +1,10 @@
+Write a program to execute the datas with the statement.
+a=int(input())
+b=float(input())
+c=input()
+d=input()
+e=input()
+print(f"Integer is {a}")
+print(f"Float is {b}")
+print(f"Character is {c}")
+print(f"Strings are {d} and {e}".format(d,e))
