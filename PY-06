@@ -1,0 +1,5 @@
+Diya wants to know how the decimal digit values are performing in programming.could you please help her to learn the decimal formatting.
+a=float(input())
+res=int(a*100)/100
+print(res)
+print("{:.2f}".format(a))
