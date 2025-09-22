@@ -1,0 +1,9 @@
+Alexa wants to know how the decimal digits are working in programming.can you please guide her to working on decimal digit.
+import ctypes
+import math
+a=float(input())
+g=ctypes.c_float(a).value
+print(f"{g:.6f}")
+print(f"{g:.4f}")
+print(f"{g:.2f}")
+print(math.ceil(a))
