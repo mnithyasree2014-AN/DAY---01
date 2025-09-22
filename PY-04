@@ -1,0 +1,11 @@
+write the program to execute the decimal values.
+import ctypes
+import math
+a=float(input())
+g=ctypes.c_float(a).value
+print(f"{g:.5f}")
+print(f"{g:.4f}")
+print(f"{g:.3f}")
+print(f"{g:.2f}")
+print(f"{g:.1f}")
+print(math.floor(a))
