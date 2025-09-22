@@ -1,0 +1,10 @@
+Sila wants to know how to calculate the values using math function.can you please guide her to perform the math Calculations. Note:use the Floor, Ceil, Sqrt, Pow.
+import math
+a=float(input())
+b=int(input())
+c=int(input())
+d=int(input())
+print(int(math.floor(a)))
+print(int(math.ceil(a)))
+print(int(math.sqrt(b)))
+print(int(math.pow(c,d)))
